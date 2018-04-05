@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  session:
+   timeout: 1800
+   
+spring:
+  mvc:
+    view:
+      prefix: WEB-INF/jsp/
+      suffix: .jsp
